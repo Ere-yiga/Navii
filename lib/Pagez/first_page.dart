@@ -9,10 +9,12 @@ class FirstPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("Page One")),
       body: Center(
-        child: ElevatedButton(onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (context) => SecondPage()));
-        }, child: Text("Next page")),
+        child: ElevatedButton(
+          onPressed: (){
+          Navigator.pushNamed(context, '/SecondPage');},
+          child: Text("Next page")),
+        ), 
       )
-    );
+    )
   }
 }
