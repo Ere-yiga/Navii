@@ -12,9 +12,9 @@ class FirstPage extends StatelessWidget {
         child: ElevatedButton(
           onPressed: (){
           Navigator.pushNamed(context, '/SecondPage');},
-          child: Text("Next page")),
-        ), 
-      )
+          child: Text("Next page")
+        ),
+      ), 
     )
   }
 }
