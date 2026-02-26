@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newp/Pagez/second_page.dart';
+import 'package:newp/pagez/second_page.dart';
 
 class FirstPage extends StatelessWidget {
   const FirstPage ({super.key});
@@ -12,9 +12,9 @@ class FirstPage extends StatelessWidget {
         child: ElevatedButton(
           onPressed: (){
           Navigator.pushNamed(context, '/SecondPage');},
-          child: Text("Next page")
+          child: Text("Next page"),
         ),
       ), 
-    )
+    );
   }
 }

@@ -10,7 +10,7 @@ class SecondPage extends StatelessWidget {
       appBar: AppBar(title: Text("Page two")),
       body: Center(
         child: ElevatedButton(onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (context) => FoodMenu()));
+          Navigator.pushNamed(context, '/FoodMenu');
         },
         child: Text("Check out our menu")),
       )
