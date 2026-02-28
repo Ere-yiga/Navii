@@ -8,6 +8,7 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Page One")),
+      drawer: Drawer(),
       body: Center(
         child: ElevatedButton(
           onPressed: (){
